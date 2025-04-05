@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #5f91a0;
+    background-color: #fffd9e;
     padding: 0 2rem;
 }
 
@@ -14,7 +14,7 @@ header {
 }
 
 .ul-header {
-    width: 25rem;
+    width: 40rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@ header {
 }
 
 .a-header {
-    color: white;
+    color: #3b3b3b;
     font-size: 1.7rem;
 }
 

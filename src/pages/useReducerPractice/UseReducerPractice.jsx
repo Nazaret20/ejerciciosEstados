@@ -1,13 +1,14 @@
-import ToDoList from "./ToDoList"; 
+import ToDoList from "./ToDoList";
 import ShoppingCart from "./ShoppingCart";
+import '../../styles/UseReducerPractice.css'
 
-const UseReducerClass = () => {
+const UseReducerPractice = () => {
   return (
-    <>
+    <section className="section-usereducer">
       <ToDoList />
       <ShoppingCart />
-    </>
+    </section>
   );
 };
 
-export default UseReducerClass;
+export default UseReducerPractice;

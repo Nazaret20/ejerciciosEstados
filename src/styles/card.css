@@ -1,0 +1,12 @@
+/* Card.css */
+.card {
+	max-width: 40rem;
+	padding: 2rem;
+	background-color: #fdfdfd;
+	border-radius: 1rem;
+	box-shadow: 0 4px 12px rgba(0, 13, 190, 0.219);
+}
+
+.h2-card {
+    font-size: 2rem;
+}

@@ -12,8 +12,9 @@ const Header = () => {
 						<Link to="/" className="a-header">Home</Link>
 					</li>
 					<li className="li-header">
-						<Link to="/usereducerclass" className="a-header">UseReducer</Link>
+						<Link to="/usereducerpractice" className="a-header">useReducer</Link>
 					</li>
+					<li className="li-header"><Link to="/customhoookpractice" className="a-header">Custom Hook</Link></li>
 				</ul>
 			</nav>
 		</header>

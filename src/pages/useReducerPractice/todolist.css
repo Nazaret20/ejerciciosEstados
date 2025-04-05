@@ -1,0 +1,94 @@
+.tareas-section {
+	min-width: 35rem;
+    max-width: 35rem;
+	height: 43rem;
+	margin-top: 2.5rem;
+	padding: 2rem;
+	background-color: #fdfdfd;
+	display: flex;
+	flex-direction: column;
+	gap: 2.2rem;
+}
+
+.tareas-section input[type="text"] {
+	padding: 1rem;
+	font-size: 1.4rem;
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	width: 100%;
+}
+
+.tareas-button {
+	width: 100%;
+	padding: 1rem;
+	font-size: 1.4rem;
+	background-color: #ffc0dd;
+	color: #313131;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.tareas-button:hover {
+	background-color: #ffa6cf;
+}
+
+.mensaje-error {
+	color: #d82149;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+
+.tareas-ul {
+	list-style: none;
+	overflow-y: scroll;
+	padding-right: 0.8rem;
+    height: 30rem;
+}
+
+ul::-webkit-scrollbar {
+	width: .8rem;
+}
+ul::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 112, 204, 0.671);
+	border-radius: .4rem;
+}
+.tareas-ul::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.096);
+}
+
+.tareas-li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.8rem 1rem;
+	margin-bottom: 0.6rem;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 0.6rem;
+}
+
+.tareas-li input[type="checkbox"] {
+	margin-right: 1rem;
+}
+
+.tareas-span {
+	flex: 1;
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+
+.tarea-completada {
+	text-decoration: line-through;
+	color: #aaa;
+}
+
+.tareas-eliminar-button {
+	background: none;
+	border: none;
+	font-size: 1.4rem;
+	cursor: pointer;
+}
+
