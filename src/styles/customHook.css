@@ -1,0 +1,48 @@
+.section-customhooks {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*-------------COUNTER---------------*/
+.section-counter {
+    padding: 2rem;
+    margin-top: 2.5rem;
+}
+
+.p-counter,
+.p-counter-resultado {
+	font-size: 1.6rem;
+    margin-bottom: 1rem;
+
+}
+
+.div-counter {
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.boton-counter-suma,
+.boton-counter-resta,
+.boton-counter-reset {
+	font-size: 1.5rem;
+	width: 100%;
+	padding: 1rem;
+	background-color: #ffc0dd;
+	color: #313131;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.boton-counter-suma:hover,
+.boton-counter-resta:hover,
+.boton-counter-reset:hover {
+	background-color: #ffa6cf;
+}

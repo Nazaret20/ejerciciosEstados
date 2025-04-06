@@ -1,6 +1,8 @@
 /* Card.css */
-.card {
+.section-card {
 	max-width: 40rem;
+	width: 40rem;
+	height: 53rem;
 	padding: 2rem;
 	background-color: #fdfdfd;
 	border-radius: 1rem;

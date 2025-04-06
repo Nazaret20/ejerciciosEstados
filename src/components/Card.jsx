@@ -3,10 +3,10 @@ import "../styles/card.css";
 
 const Card = ({ title, children }) => {
 	return (
-		<div className="card">
+		<section className="section-card">
 			<h2 className="h2-card">{title}</h2>
 			<div>{children}</div>
-		</div>
+		</section>
 	);
 };
 

@@ -1,6 +1,6 @@
 import { useState, useReducer } from "react";
 import Card from "../../components/Card";
-import "./todolist.css";
+import "../../styles/useReducer.css";
 
 const ToDoList = () => {
 	const tareas = [
