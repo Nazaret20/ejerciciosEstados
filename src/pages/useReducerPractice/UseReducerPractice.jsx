@@ -1,6 +1,6 @@
 import ToDoList from "./ToDoList";
 import ShoppingCart from "./ShoppingCart";
-import '../../styles/UseReducer.css'
+import '../../styles/useReducer.css'
 
 const UseReducerPractice = () => {
   return (
