@@ -1,6 +1,7 @@
 /* Card.css */
 .section-card {
 	max-width: 40rem;
+	min-width: 40rem;
 	width: 40rem;
 	height: 53rem;
 	padding: 2rem;
